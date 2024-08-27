@@ -6,7 +6,7 @@ import Thumbnail from "@/modules/Thumbnail";
 import Introduction from "@/modules/Introduction";
 import Invitation from "@/modules/Invitation";
 import Event from "@/modules/Event";
-import Dresscode from "@/modules/Dresscode";
+// import Dresscode from "@/modules/Dresscode";
 import Album from "@/modules/Album";
 import Thank from "@/modules/Thank";
 import Note from "@/modules/Note";
