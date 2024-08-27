@@ -63,7 +63,7 @@ function App() {
         <Event />
         {/* DressCode */}
         <div className="px-6 md:px-20 lg:px-40 2xl:px-60 py-5">
-          <Dresscode />
+          {/* <Dresscode /> */}
           <Album />
         </div>
         {/* Album */}

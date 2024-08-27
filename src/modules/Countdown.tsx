@@ -9,7 +9,7 @@ type Time = {
 
 const Countdown = () => {
   const [expiryTime, setExpiryTime] = useState<string | boolean>(
-    "25 sep 2024 11:30:00"
+    "14 sep 2024 16:45:00"
   );
   const [countdownTime, setCountdownTime] = useState<Time>({
     countdownDays: 0,

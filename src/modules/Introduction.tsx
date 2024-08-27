@@ -16,21 +16,20 @@ const Introduction = () => {
         <div className="col-span-3 flex flex-col items-center justify-center h-full">
           <Animate animateType={fadeUpRight}>
             <h5 className="text-sm md:text-lg lg:text-xl 2xl:text-3xl font-semibold text-center ">
-              CÔ DÂU
+              BRIDE
             </h5>
           </Animate>
           <Animate animateType={fadeUpRight}>
             <div className="font-primary text-base md:text-xl lg:text-2xl 2xl:text-4xl text-center smmb-2 lg:mb-6 2xl:mb-8 ">
-              Nguyễn Ngọc Vân
+              Doan Hai Anh
             </div>
           </Animate>
           <Animate animateType={fadeUpRight}>
             <p className="text-xs sm:text-sm lg:text-lg 2xl:text-xl text-wrap ">
-              Em - một cô gái đa sầu, đa cảm, thật may mắn khi gặp được anh. Cảm
-              ơn anh luôn quan tâm, chăm sóc em thật nhiề, nuông chiều những khi
-              em giận hờn vô cớ. Bắt đầu từ hôm nay chúng ta sẽ viết nên một
-              chương mới của cuộc đời, bằng tình thương yêu và hạnh phúc đong
-              đầy anh nhé!
+              Love isn't always perfect, and it doesn't always come easy. Love
+              is overcoming obstacles, facing challengens, fighting to be
+              together, holding on and never letting go. But most of all, every
+              second was worth it because we did it together.
             </p>
           </Animate>
         </div>
@@ -40,21 +39,20 @@ const Introduction = () => {
         <div className="col-span-3 flex flex-col items-center justify-center h-full">
           <Animate animateType={fadeUpLeft}>
             <h5 className="text-sm md:text-lg lg:text-xl 2xl:text-3xl font-semibold text-center">
-              CHÚ RỂ
+              GROOM
             </h5>
           </Animate>
           <Animate animateType={fadeUpLeft}>
             <div className="font-primary text-base md:text-xl lg:text-2xl 2xl:text-4xl text-center smmb-2 lg:mb-6 2xl:mb-8">
-              Cao Thành Trung
+              Nguyen Trung Kien
             </div>
           </Animate>
           <Animate animateType={fadeUpLeft}>
             <p className="text-xs sm:text-sm lg:text-lg 2xl:text-xl text-wrap">
-              Hạnh phúc nhất trên đời không phải là việc gặp được người tuyệt
-              nhất ở những tháng ngày đẹp nhất. Mà là một người sẽ từ từ nhìn
-              mình già đi, không cần ở những năm tháng đẹp nhất, mà là đúng
-              người, đúng thời điểm, nắm tay nhau cùng đi. Anh rất hạnh phúc vì
-              gặp được em, cùng anh về nhà em nhé!
+              A soulmate is someone who is willing to grow with you, who chooses
+              to be with you until the end, and will love you through good and
+              bad. At the end of all things, we'll see what really matters, and
+              love knowing that what we are growing is beautiful.
             </p>
           </Animate>
         </div>

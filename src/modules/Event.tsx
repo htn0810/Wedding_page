@@ -28,7 +28,7 @@ const Event = () => {
           <Animate animateType={fadeLeft}>
             <div className="flex gap-x-4 items-end mb-4">
               <span className="text-xs lg:text-lg 2xl:text-xl font-secondary font-light text-center">
-                11:30
+                16:45
               </span>
               <span className="w-20 block h-[2px] bg-black"></span>
               <span className="text-xs lg:text-lg 2xl:text-xl font-secondary font-light text-center">
@@ -39,33 +39,11 @@ const Event = () => {
           <Animate animateType={fadeLeft}>
             <div className="flex gap-x-4 items-end mb-4">
               <span className="text-xs lg:text-lg 2xl:text-xl font-secondary font-light text-center">
-                12:00
-              </span>
-              <span className="w-20 block h-[2px] bg-black"></span>
-              <span className="text-xs lg:text-lg 2xl:text-xl font-secondary font-light text-center">
-                Lễ thành hôn
-              </span>
-            </div>
-          </Animate>
-          <Animate animateType={fadeLeft}>
-            <div className="flex gap-x-4 items-end mb-4">
-              <span className="text-xs lg:text-lg 2xl:text-xl font-secondary font-light text-center">
-                12:30
+                17:15
               </span>
               <span className="w-20 block h-[2px] bg-black"></span>
               <span className="text-xs lg:text-lg 2xl:text-xl font-secondary font-light text-center">
                 Khai tiệc
-              </span>
-            </div>
-          </Animate>
-          <Animate animateType={fadeLeft}>
-            <div className="flex gap-x-4 items-end">
-              <span className="text-xs lg:text-lg 2xl:text-xl font-secondary font-light text-center">
-                13:30
-              </span>
-              <span className="w-20 block h-[2px] bg-black"></span>
-              <span className="text-xs lg:text-lg 2xl:text-xl font-secondary font-light text-center">
-                Khiêu vũ kết tiệc
               </span>
             </div>
           </Animate>

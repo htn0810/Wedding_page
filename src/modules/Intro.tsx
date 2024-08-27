@@ -18,7 +18,7 @@ const Intro = () => {
         }}
         className=" text-black text-2xl lg:text-4xl 2xl:text-7xl font-primary text-center animate-bounce"
       >
-        Thành Trung - Ngọc Vân
+        Trung Kien - Hai Anh
       </motion.div>
       <Animate
         animateType={fadeDown}

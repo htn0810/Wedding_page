@@ -77,9 +77,9 @@ const Invitation = () => {
             <span className="text-sm lg:text-lg 2xl:text-xl">09</span>
           </div>
           <div className="flex flex-col items-center border-l-2 border-black border-r-2 px-4 md:px-6 2xl:px-10">
-            <span className="text-sm lg:text-lg 2xl:text-xl">THỨ 5</span>
+            <span className="text-sm lg:text-lg 2xl:text-xl">THỨ 7</span>
             <span className="text-xl lg:text-3xl 2xl:text-5xl font-semibold">
-              25
+              14
             </span>
           </div>
           <div className="flex flex-col items-center">
@@ -88,13 +88,13 @@ const Invitation = () => {
           </div>
         </div>
         <p className="text-sm lg:text-lg 2xl:text-xl my-2 md:my-6">
-          (Tức ngày 23 tháng 08 năm Giáp Thìn)
+          (Tức ngày 12 tháng 08 năm Giáp Thìn)
         </p>
         <h5 className="font-secondary mt-2 text-center text-sm lg:text-lg 2xl:text-xl">
-          TẠI NHÀ HÀNG TIỆC CƯỚI
+          TẠI TƯ GIA
         </h5>
         <p className="text-center text-sm lg:text-lg 2xl:text-xl my-2">
-          Tầng 2 - Phòng Luxury Số 40, Hoàng Văn Thụ, Tân Bình, Hồ Chí Minh
+          Số nhà 395 - Tổ 3 - Thị trấn Chi Đông - Mê Linh - Hà Nội
         </p>
         {/* Chỉ Đường */}
         <div className="flex gap-x-2 items-center cursor-pointer hover:scale-110 hover:text-red-800 transition-all mt-4 animate-bounce">
@@ -120,7 +120,7 @@ const Invitation = () => {
             </svg>
           </span>
           <a
-            href="https://maps.app.goo.gl/2PTDTDGPjkpYoyMN9"
+            href="https://maps.app.goo.gl/NGoPXQpnGnwX8nir9?g_st=ic"
             target="_blank"
             className="font-secondary mt-2 text-center text-sm lg:text-lg 2xl:text-xl"
           >
