@@ -49,9 +49,13 @@ const Invitation = () => {
             Tháng 9
           </h5>
         </Animate>
-        <div className="w-1/2 mt-2 lg:mt-4 relative flex justify-center">
-          <img src={IMAGES.Calendar.url} alt="Calendar-Img" className="" />
-          <span className="absolute top-[70%] right-[42%] sm:right-[45%] text-pink-400 animate-wiggle-more animate-infinite">
+        <div className="w-[302px] h-[176px] mt-2 lg:mt-4 relative flex justify-center">
+          <img
+            src={IMAGES.Calendar.url}
+            alt="Calendar-Img"
+            className="w-full h-full object-cover"
+          />
+          <span className="absolute top-[40%] right-[-1%] xl:top-[36%] xl:right-[-4%] text-pink-400 animate-wiggle-more animate-infinite">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

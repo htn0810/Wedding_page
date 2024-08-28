@@ -27,7 +27,7 @@ function App() {
         loadImg.onload = () =>
           setTimeout(() => {
             resolve(imageUrl);
-          }, 4000);
+          }, 20);
 
         loadImg.onerror = (err) => reject(err);
       });
