@@ -27,7 +27,7 @@ function App() {
         loadImg.onload = () =>
           setTimeout(() => {
             resolve(imageUrl);
-          }, 20);
+          }, 4000);
 
         loadImg.onerror = (err) => reject(err);
       });
@@ -62,7 +62,7 @@ function App() {
         {/* Sự Kiện Quan Trọng */}
         <Event />
         {/* DressCode */}
-        <div className="px-6 md:px-20 lg:px-40 2xl:px-60 py-5">
+        <div className="px-6 md:px-20 lg:px-40 2xl:px-60 py-0">
           {/* <Dresscode /> */}
           <Album />
         </div>

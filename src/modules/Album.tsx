@@ -12,7 +12,7 @@ import { IMAGES } from "@/constant/images.constant";
 
 const Album = () => {
   return (
-    <div className="mt-2 md:mt-6 w-full">
+    <div className="mt-0 md:mt-6 w-full">
       <div className="grid grid-cols-2 gap-x-4 items-end">
         <Animate
           animateType={fadeRight}

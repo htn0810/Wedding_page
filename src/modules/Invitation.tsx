@@ -49,20 +49,21 @@ const Invitation = () => {
             Tháng 9
           </h5>
         </Animate>
-        <div className="w-[302px] h-[176px] mt-2 lg:mt-4 relative flex justify-center">
+        <div className="w-[350px] h-[350px] mt-2 lg:mt-4 relative flex justify-center">
           <img
             src={IMAGES.Calendar.url}
             alt="Calendar-Img"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover filter grayscale"
           />
-          <span className="absolute top-[40%] right-[-1%] xl:top-[36%] xl:right-[-4%] text-pink-400 animate-wiggle-more animate-infinite">
+          <span className="absolute top-[50%] right-[6%] text-pink-400 animate-wiggle-more animate-infinite">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1}
               stroke="currentColor"
-              className="size-6 md:size-8 lg:size-12"
+              // className="size-6 md:size-8 lg:size-12"
+              className="size-12"
             >
               <path
                 strokeLinecap="round"

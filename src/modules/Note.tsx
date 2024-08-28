@@ -198,7 +198,7 @@ const Note = () => {
                   <span className="font-semibold font-secondary text-lg">
                     CHÚ RỂ
                   </span>
-                  <span className="font-primary text-2xl">
+                  <span className="font-primary text-lg sm:text-2xl">
                     Nguyen Trung Kien
                   </span>
                   <span>VietinBank</span>
