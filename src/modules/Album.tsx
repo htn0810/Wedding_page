@@ -112,10 +112,10 @@ const Album = () => {
         </div>
       </div> */}
       <div className="mt-6 lg:mt-10 2xl:mt-14 grid grid-cols-2 gap-4 lg:gap-8 2xl:gap-10">
-        <Animate animateType={fadeUpRight}>
+        <Animate animateType={fadeRight}>
           <CustomImage img={IMAGES.Album3} />
         </Animate>
-        <Animate animateType={fadeUpRight}>
+        <Animate animateType={fadeLeft}>
           <CustomImage img={IMAGES.Album4} />
         </Animate>
         <Animate animateType={fadeRight}>
