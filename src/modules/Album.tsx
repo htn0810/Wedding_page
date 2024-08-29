@@ -9,7 +9,7 @@ import {
   fadeDown,
 } from "@/constant/animate.constant";
 import { IMAGES } from "@/constant/images.constant";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 // import { useEffect, useState } from "react";
 
 const Album = () => {
