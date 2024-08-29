@@ -9,6 +9,7 @@ import {
   fadeDown,
 } from "@/constant/animate.constant";
 import { IMAGES } from "@/constant/images.constant";
+import { motion } from "framer-motion";
 
 const Album = () => {
   return (
@@ -56,12 +57,54 @@ const Album = () => {
           </Animate>
         </div>
         <div className="grid grid-rows-2 gap-y-4 lg:gap-y-8 2xl:gap-y-10 h-full">
-          <Animate animateType={fadeLeft} className="h-full">
-            <CustomImage img={IMAGES.Album4} className="h-full" />
-          </Animate>
-          <Animate animateType={fadeLeft} className="h-full">
-            <CustomImage img={IMAGES.Album5} className="h-full" />
-          </Animate>
+          <div className="h-full">
+            <motion.img
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.5 }}
+              variants={fadeLeft}
+              className="h-full"
+              src={IMAGES.Album4.url}
+              alt="Image"
+              srcSet={`
+                ${IMAGES.Album4.xs} 480w,
+                ${IMAGES.Album4.md} 1279w,
+                ${IMAGES.Album4.xl} 1280w
+                `}
+              sizes="
+                (max-width: 480px) 100vw,
+                (max-width: 1279px) 100vw,
+                (min-width: 1280px) 100vw
+                "
+            ></motion.img>
+            {/* <Animate animateType={fadeLeft} className="">
+              <CustomImage img={IMAGES.Album4} className="h-full" />
+            </Animate> */}
+          </div>
+          <div className="h-full">
+            <motion.img
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.5 }}
+              variants={fadeLeft}
+              className="h-full"
+              src={IMAGES.Album5.url}
+              alt="Image"
+              srcSet={`
+                ${IMAGES.Album5.xs} 480w,
+                ${IMAGES.Album5.md} 1279w,
+                ${IMAGES.Album5.xl} 1280w
+                `}
+              sizes="
+                (max-width: 480px) 100vw,
+                (max-width: 1279px) 100vw,
+                (min-width: 1280px) 100vw
+                "
+            ></motion.img>
+            {/* <Animate animateType={fadeLeft} className="h-full">
+              <CustomImage img={IMAGES.Album5} className="h-full" />
+            </Animate> */}
+          </div>
         </div>
       </div>
       <div className="mt-6 lg:mt-10 2xl:mt-14 grid grid-cols-2 gap-4 lg:gap-8 2xl:gap-10">
