@@ -56,14 +56,14 @@ const Album = () => {
             <CustomImage img={IMAGES.Album3} className="h-full" />
           </Animate>
         </div>
-        <div className="grid grid-rows-2 gap-y-4 lg:gap-y-8 2xl:gap-y-10 h-full">
-          <div className="h-full">
+        <div className="flex flex-col gap-y-4 lg:gap-y-8 2xl:gap-y-10 h-full">
+          <div className="h-1/2">
             <motion.img
               initial="hidden"
               whileInView="show"
               viewport={{ once: true, amount: 0.5 }}
               variants={fadeLeft}
-              className="h-full"
+              className="h-full object-cover"
               src={IMAGES.Album4.url}
               alt="Image"
               srcSet={`
@@ -81,13 +81,13 @@ const Album = () => {
               <CustomImage img={IMAGES.Album4} className="h-full" />
             </Animate> */}
           </div>
-          <div className="h-full">
+          <div className="h-1/2">
             <motion.img
               initial="hidden"
               whileInView="show"
               viewport={{ once: true, amount: 0.5 }}
               variants={fadeLeft}
-              className="h-full"
+              className="h-full object-cover"
               src={IMAGES.Album5.url}
               alt="Image"
               srcSet={`
