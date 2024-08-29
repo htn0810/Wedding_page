@@ -14,17 +14,13 @@ import { useEffect, useState } from "react";
 
 const Album = () => {
   const [isAppleDevice, setIsAppleDevice] = useState(false);
-  const [isAndroidOrWindows, setIsAndroidOrWindows] = useState(false);
   useEffect(() => {
     const userAgent = window.navigator.userAgent;
 
     const isIOS = /iPad|iPhone|iPod/.test(userAgent);
     const isMacOS = /Macintosh|MacIntel|MacPPC|Mac68K/.test(userAgent);
-    const isAndroid = /android/i.test(userAgent);
-    const isWindows = /Win32|Win64|Windows/.test(userAgent);
 
     setIsAppleDevice(isIOS || isMacOS);
-    setIsAndroidOrWindows(isAndroid || isWindows);
   }, []);
   return (
     <div className="mt-0 md:mt-6 w-full">
