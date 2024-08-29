@@ -51,12 +51,12 @@ const Album = () => {
         </div>
       </div>
       <div className="mt-6 lg:mt-10 2xl:mt-14 grid grid-cols-2 gap-x-4 lg:gap-x-8 2xl:gap-x-10">
-        <div className="h-full">
+        <div className="h-full col-span-1">
           <Animate animateType={fadeRight} className="h-full">
             <CustomImage img={IMAGES.Album3} className="h-full" />
           </Animate>
         </div>
-        <div className="grid grid-rows-2 gap-y-4 lg:gap-y-8 2xl:gap-y-10 h-full">
+        <div className="col-span-1 grid grid-rows-2 gap-y-4 lg:gap-y-8 2xl:gap-y-10 h-full">
           <div className="row-span-1">
             <motion.img
               initial="hidden"
