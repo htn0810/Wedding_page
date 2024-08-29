@@ -10,18 +10,18 @@ import {
 } from "@/constant/animate.constant";
 import { IMAGES } from "@/constant/images.constant";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 const Album = () => {
-  const [isAppleDevice, setIsAppleDevice] = useState(false);
-  useEffect(() => {
-    const userAgent = window.navigator.userAgent;
+  // const [isAppleDevice, setIsAppleDevice] = useState(false);
+  // useEffect(() => {
+  //   const userAgent = window.navigator.userAgent;
 
-    const isIOS = /iPad|iPhone|iPod/.test(userAgent);
-    const isMacOS = /Macintosh|MacIntel|MacPPC|Mac68K/.test(userAgent);
+  //   const isIOS = /iPad|iPhone|iPod/.test(userAgent);
+  //   const isMacOS = /Macintosh|MacIntel|MacPPC|Mac68K/.test(userAgent);
 
-    setIsAppleDevice(isIOS || isMacOS);
-  }, []);
+  //   setIsAppleDevice(isIOS || isMacOS);
+  // }, []);
   return (
     <div className="mt-0 md:mt-6 w-full">
       <div className="grid grid-cols-2 gap-x-4 items-end">
@@ -60,7 +60,7 @@ const Album = () => {
           </Animate>
         </div>
       </div>
-      <div className="mt-6 lg:mt-10 2xl:mt-14 grid grid-cols-2 gap-x-4 lg:gap-x-8 2xl:gap-x-10">
+      {/* <div className="mt-6 lg:mt-10 2xl:mt-14 grid grid-cols-2 gap-x-4 lg:gap-x-8 2xl:gap-x-10">
         <div className="h-full col-span-1">
           <Animate animateType={fadeRight} className="h-full">
             <CustomImage img={IMAGES.Album3} className="h-full" />
@@ -87,9 +87,6 @@ const Album = () => {
                 (min-width: 1280px) 100vw
                 "
             ></motion.img>
-            {/* <Animate animateType={fadeLeft} className="">
-              <CustomImage img={IMAGES.Album4} className="h-full" />
-            </Animate> */}
           </div>
           <div className={`${isAppleDevice ? "h-1/2" : "h-full"}`}>
             <motion.img
@@ -111,13 +108,16 @@ const Album = () => {
                 (min-width: 1280px) 100vw
                 "
             ></motion.img>
-            {/* <Animate animateType={fadeLeft} className="h-full">
-              <CustomImage img={IMAGES.Album5} className="h-full" />
-            </Animate> */}
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="mt-6 lg:mt-10 2xl:mt-14 grid grid-cols-2 gap-4 lg:gap-8 2xl:gap-10">
+        <Animate animateType={fadeUpRight}>
+          <CustomImage img={IMAGES.Album3} />
+        </Animate>
+        <Animate animateType={fadeUpRight}>
+          <CustomImage img={IMAGES.Album4} />
+        </Animate>
         <Animate animateType={fadeRight}>
           <CustomImage img={IMAGES.Album6} />
         </Animate>
