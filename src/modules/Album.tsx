@@ -50,9 +50,11 @@ const Album = () => {
         </div>
       </div>
       <div className="mt-6 lg:mt-10 2xl:mt-14 grid grid-cols-2 gap-x-4 lg:gap-x-8 2xl:gap-x-10">
-        <Animate animateType={fadeRight}>
-          <CustomImage img={IMAGES.Album3} />
-        </Animate>
+        <div className="h-full">
+          <Animate animateType={fadeRight}>
+            <CustomImage img={IMAGES.Album3} />
+          </Animate>
+        </div>
         <div className="grid grid-rows-2 gap-y-4 lg:gap-y-8 2xl:gap-y-10 h-full">
           <Animate animateType={fadeLeft} className="h-full">
             <CustomImage img={IMAGES.Album4} className="h-full" />

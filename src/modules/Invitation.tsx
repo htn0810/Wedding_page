@@ -74,7 +74,7 @@ const Invitation = () => {
           </span>
         </div>
         <h5 className="font-secondary my-6 lg:my-8 2xl:my-10 text-center text-sm lg:text-lg 2xl:text-xl">
-          TIỆC THÂN MẬT NHÀ GÁI TỔ ĐƯỢC TỔ CHỨC VÀO LÚC 12 GIỜ 00 PHÚT
+          TIỆC THÂN MẬT NHÀ TRAI TỔ ĐƯỢC TỔ CHỨC VÀO LÚC 17 GIỜ 15 PHÚT
         </h5>
         <div className="flex gap-x-4 md:gap-x-6 2xl:gap-x-10 items-center">
           <div className="flex flex-col items-center">
