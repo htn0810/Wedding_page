@@ -10,8 +10,22 @@ import {
 } from "@/constant/animate.constant";
 import { IMAGES } from "@/constant/images.constant";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 const Album = () => {
+  const [isAppleDevice, setIsAppleDevice] = useState(false);
+  const [isAndroidOrWindows, setIsAndroidOrWindows] = useState(false);
+  useEffect(() => {
+    const userAgent = window.navigator.userAgent;
+
+    const isIOS = /iPad|iPhone|iPod/.test(userAgent);
+    const isMacOS = /Macintosh|MacIntel|MacPPC|Mac68K/.test(userAgent);
+    const isAndroid = /android/i.test(userAgent);
+    const isWindows = /Win32|Win64|Windows/.test(userAgent);
+
+    setIsAppleDevice(isIOS || isMacOS);
+    setIsAndroidOrWindows(isAndroid || isWindows);
+  }, []);
   return (
     <div className="mt-0 md:mt-6 w-full">
       <div className="grid grid-cols-2 gap-x-4 items-end">
@@ -56,8 +70,8 @@ const Album = () => {
             <CustomImage img={IMAGES.Album3} className="h-full" />
           </Animate>
         </div>
-        <div className="col-span-1 grid grid-rows-2 gap-y-4 lg:gap-y-8 2xl:gap-y-10 h-full">
-          <div className="row-span-1">
+        <div className="col-span-1 flex flex-col gap-y-4 lg:gap-y-8 2xl:gap-y-10 h-full">
+          <div className={`${isAppleDevice ? "h-1/2" : "h-full"}`}>
             <motion.img
               initial="hidden"
               whileInView="show"
@@ -81,7 +95,7 @@ const Album = () => {
               <CustomImage img={IMAGES.Album4} className="h-full" />
             </Animate> */}
           </div>
-          <div className="row-span-1">
+          <div className={`${isAppleDevice ? "h-1/2" : "h-full"}`}>
             <motion.img
               initial="hidden"
               whileInView="show"
