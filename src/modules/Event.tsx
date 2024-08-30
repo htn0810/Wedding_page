@@ -12,13 +12,13 @@ const Event = () => {
           className="w-full h-full object-cover"
         />
         <Animate animateType={fadeUpLeft}>
-          <h5 className="font-semibold mt-2 text-center text-sm lg:text-lg 2xl:text-xl absolute bottom-1 md:bottom-4 left-1/2 -translate-x-1/2 font-primary">
+          <h5 className="[text-shadow:_1px_2px_1px_rgb(255_255_255_/_40%)] font-semibold mt-2 text-center text-sm lg:text-lg 2xl:text-xl absolute bottom-1 md:bottom-4 left-1/2 -translate-x-1/2 font-primary">
             SỰ KIỆN
           </h5>
         </Animate>
       </div>
       <Animate animateType={fadeUpRight}>
-        <h5 className="font-primary mt-2 text-center text-sm lg:text-lg 2xl:text-xl">
+        <h5 className="[text-shadow:_1px_2px_1px_rgb(0_0_0_/_40%)] font-primary mt-2 text-center text-sm lg:text-lg 2xl:text-xl">
           QUAN TRỌNG
         </h5>
       </Animate>

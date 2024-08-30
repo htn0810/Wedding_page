@@ -12,7 +12,7 @@ const Introduction = () => {
       </h5>
       {/* Cô dâu */}
       <div className="-mx-6 sm:-mx-0 grid grid-cols-5 gap-x-2 sm:gap-x-4 md:gap-x-8 lg:gap-x-12 2xl:gap-x-20 mt-8 items-center sm:items-start pr-2">
-        <CustomImage img={IMAGES.Bride} className="col-span-2" />
+        <CustomImage img={IMAGES.Album5} className="col-span-2" />
         <div className="col-span-3 flex flex-col items-center justify-center h-full">
           <Animate animateType={fadeUpRight}>
             <h5 className="text-sm md:text-lg lg:text-xl 2xl:text-3xl font-semibold text-center ">
@@ -56,7 +56,7 @@ const Introduction = () => {
             </p>
           </Animate>
         </div>
-        <CustomImage img={IMAGES.Groom} className="col-span-2" />
+        <CustomImage img={IMAGES.Album6} className="col-span-2" />
       </div>
     </>
   );

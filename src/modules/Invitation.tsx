@@ -32,7 +32,7 @@ const Invitation = () => {
           </div>
           <div className="col-span-2">
             <Animate animateType={zoomOut}>
-              <CustomImage img={IMAGES.MainThumb} />
+              <CustomImage img={IMAGES.Album4} />
             </Animate>
           </div>
           <div className="col-span-3">

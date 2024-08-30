@@ -74,7 +74,7 @@ const Note = () => {
         <div className="relative w-24 h-32 sm:w-28 sm:h-36 lg:w-32 lg:h-44 2xl:w-40 2xl:h-56 ml-12 md:ml-40 lg:ml-60 2xl:ml-80 border-2 border-black">
           <div className="absolute left-[4%] top-[4%] md:left-[8%] md:top-[6%] w-full h-full object-cover z-50">
             <Animate animateType={fadeUpRight}>
-              <CustomImage img={IMAGES.Note} />
+              <CustomImage img={IMAGES.Album3} />
             </Animate>
           </div>
         </div>

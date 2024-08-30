@@ -51,9 +51,6 @@ import Album9_xs from "@/assets/images/mobile/album9_xs.webp";
 import Album10_xl from "@/assets/images/monitor/album10_xl.webp";
 import Album10_md from "@/assets/images/tablet/album10_md.webp";
 import Album10_xs from "@/assets/images/mobile/album10_xs.webp";
-import Album11_xl from "@/assets/images/monitor/album11_xl.webp";
-import Album11_md from "@/assets/images/tablet/album11_md.webp";
-import Album11_xs from "@/assets/images/mobile/album11_xs.webp";
 import Event_xl from "@/assets/images/monitor/event_xl.webp";
 import Event_md from "@/assets/images/tablet/event_md.webp";
 import Event_xs from "@/assets/images/mobile/event_xs.webp";
@@ -197,13 +194,6 @@ export const IMAGES = {
     xs: Album10_xs,
     md: Album10_md,
     xl: Album10_xl,
-  },
-  Album11: {
-    id: 20,
-    url: Album11_xl,
-    xs: Album11_xs,
-    md: Album11_md,
-    xl: Album11_xl,
   },
   Note: {
     id: 21,

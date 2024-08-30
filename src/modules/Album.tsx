@@ -119,22 +119,22 @@ const Album = () => {
           <CustomImage img={IMAGES.Album4} />
         </Animate>
         <Animate animateType={fadeRight}>
+          <CustomImage img={IMAGES.Album5} />
+        </Animate>
+        <Animate animateType={fadeLeft}>
           <CustomImage img={IMAGES.Album6} />
         </Animate>
-        <Animate animateType={fadeLeft}>
+        <Animate animateType={fadeRight}>
           <CustomImage img={IMAGES.Album7} />
         </Animate>
-        <Animate animateType={fadeRight}>
+        <Animate animateType={fadeLeft}>
           <CustomImage img={IMAGES.Album8} />
         </Animate>
-        <Animate animateType={fadeLeft}>
+        <Animate animateType={fadeRight}>
           <CustomImage img={IMAGES.Album9} />
         </Animate>
-        <Animate animateType={fadeRight}>
-          <CustomImage img={IMAGES.Album10} />
-        </Animate>
         <Animate animateType={fadeLeft}>
-          <CustomImage img={IMAGES.Album11} />
+          <CustomImage img={IMAGES.Album10} />
         </Animate>
       </div>
     </div>

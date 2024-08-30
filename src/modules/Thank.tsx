@@ -8,7 +8,7 @@ const Thank = () => {
         <CustomImage img={IMAGES.Thanku} className="h-full w-full" />
       </div>
 
-      <h5 className="z-50 font-primary mt-2 text-center text-2xl lg:text-3xl 2xl:text-5xl">
+      <h5 className="[text-shadow:_1px_2px_1px_rgb(255_255_255_/_40%)] z-50 font-primary mt-2 text-center text-2xl lg:text-3xl 2xl:text-5xl">
         Thank you!
       </h5>
     </div>
